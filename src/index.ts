@@ -57,7 +57,7 @@ app.post('/chatWithDoc', async (c)=>{
 				content: 'User question is: ' + question,
 			},
 		],
-		model: 'gpt-4o-mini',
+		model: 'gpt-4o',
 		temperature: 0.5,
 	})
 
